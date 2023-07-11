@@ -1,10 +1,10 @@
 
 .container{
     width: 1000px;
-    height: 900px;
     background-color: silver;
     margin: 0px auto;
-    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .top-nav {
     width: 950px;
@@ -22,30 +22,21 @@
     height: 400px;
     width: 700px;
     background-color: red;
-    padding: 20px
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
 }
-    .sub-content1, .sub-content2, .sub-content3 {
-        vertical-align: top;
-    }
-    .sub-content1 {
-        height: 50px;
-        width: 50px;
+    .sub-content {
+        height: 200px;
+        width: 200px;
         background-color: yellow;
     }
-    .sub-content2 {
-        height: 50px;
-        width: 50px;
-        background-color: yellow;
-    }
-    .sub-content3 {
-        height: 50px;
-        width: 50px;
-        background-color: yellow;
-    }
-    .advertisement {
+
+    #advertisement {
         height: 120px;
-        width: 660px;
+        width: 700px;
         background-color: purple;
-        margin-top: 100px;
+        margin: 10px auto;
     }
 
